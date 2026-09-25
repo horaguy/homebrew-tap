@@ -14,7 +14,7 @@ cask "aseprite" do
         "Accept: application/octet-stream",
       ]
   name "Aseprite"
-  desc "Animated sprite editor & pixel art tool (***PRIVATE CASK***)"
+  desc "Animated sprite editor & pixel art tool (PRIVATE: no third-party use per EULA)"
   homepage "https://www.aseprite.org/"
 
   livecheck do

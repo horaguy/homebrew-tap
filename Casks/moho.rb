@@ -12,7 +12,7 @@ cask "moho" do
   # The trial page links to the installer, and the version is only found in
   # the file name (e.g. Moho1440_Mac.dmg for 14.4) after following the link.
   livecheck do
-    url "https://moho.lostmarble.com/ja/pages/try"
+    url "https://moho.lostmarble.com/pages/try"
     regex(%r{Mac\s*OS.*?href=["']?https?://delivery\.shopifyapps\.com/-/(\h+)/(\h+)}im)
     strategy :page_match do |page, regex|
       match = page.match(regex)

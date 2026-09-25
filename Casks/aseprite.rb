@@ -2,11 +2,9 @@ cask "aseprite" do
   version "1.3.18.6,582873068"
   sha256 "041b381f9acec853f3d42eefb207937a5d840ef89b54e3a2005d75f2d0f1a995"
 
-  # According to the EULA of Aseprite, we release built apps only in private repository.
+  # According to the EULA of Aseprite, I release a built app only in private repository.
   # - https://github.com/aseprite/aseprite/blob/main/EULA.txt
-  # - Usage: HOMEBREW_GITHUB_API_TOKEN="$(gh auth token)" brew install aseprite
-  # - Other HOMEBREW_*TOKEN variables are masked by Homebrew and then fail on
-  #   the API's redirect (curl: (47)); HOMEBREW_GITHUB_API_TOKEN is exempt.
+  # Usage: HOMEBREW_GITHUB_API_TOKEN="$(gh auth token)" brew install aseprite
 
   url "https://api.github.com/repos/horaguy/aseprite-build/releases/assets/#{version.csv.second}",
       header: [

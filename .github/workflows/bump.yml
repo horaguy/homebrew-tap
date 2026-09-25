@@ -19,7 +19,7 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # For gh-cli (merging the PR)
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Configure Git name and email
         run: |
           git config --global user.name "github-actions[bot]"

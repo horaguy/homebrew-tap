@@ -1,6 +1,6 @@
 cask "aseprite" do
-  version "1.3.18.5,554126149"
-  sha256 "2b5d2746feb204b67786488b5fcf9c045d0e10610439afb9d0e59739203ab2e8"
+  version "1.3.18.6,582873068"
+  sha256 "041b381f9acec853f3d42eefb207937a5d840ef89b54e3a2005d75f2d0f1a995"
 
   # According to the EULA of Aseprite, we release built apps only in private repository.
   # - https://github.com/aseprite/aseprite/blob/main/EULA.txt

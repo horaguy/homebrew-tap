@@ -1,6 +1,6 @@
 cask "moho" do
-  version "14.4,b1b5e7614552eeac,15449ea520c87e08"
-  sha256 "abd8dd9f87c8cb1ef5fce90d393c4f7730e4c53cdfa404bef15f015c7e3e65c6"
+  version "14.5,0527825866451b9b,b4eb054ce209785d"
+  sha256 "65239124fd9c3c930c43f5d80224a23528aa930dc46bc6ae6dbafcdbb8c326ff"
 
   # Shopify returns 404 unless the request accepts text/html.
   url "https://delivery.shopifyapps.com/-/#{version.csv.second}/#{version.csv.third}",

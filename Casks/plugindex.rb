@@ -1,6 +1,6 @@
 cask "plugindex" do
-  version "1.4.33"
-  sha256 "b1223e62f43c13a15e7d1cede8111a4bb0a14c22d33827a9aee36e07be427c03"
+  version "1.4.34"
+  sha256 "8558d7d09fdaebd674eed80c5dc5387a79702c470a4d233d89d805800fafc4f9"
 
   url "https://download.plugindex.app/mac-universal/Plugindex-#{version}-universal.dmg"
   name "Plugindex"
